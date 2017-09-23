@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
+body {
+    background-color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    color: #000000;
+}
+
+#header {
+		background: #4682B4;
+		cursor: default;
+		height: 10vh;
+		left: 0;
+		line-height: 10vh;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.075);
+		text-align: center;
+	}
+
+		#header .logo {
+			color: white;
+			font-family: "Pacifico", cursive;
+			font-size: 5vh;
+			letter-spacing: 2px;
+			margin-top: -5px;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+
+.content {
+    position: relative;
+    padding-top: 11vh;
+    text-align:center;
+    display: block;
+}
+
+#web_url {
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vh;
+    height: 7vh;
+    width: 90vw;
+}
+
+#text {
+    margin-top: 4vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5vh;
+    height: 45vh;
+    width: 90vw;
+}
+
+input {
+    padding: 0 2vw 0 2vw;
+}

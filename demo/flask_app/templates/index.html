@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PiSight</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header id="header">
+        <a class="logo">PiSight</a>
+    </header>
+    <div class="content">
+        <textarea id="web_url" size="100%"  name="web_url" placeholder="(Optional) Enter URL"></textarea>
+        <input type="image" src ="{{ url_for('static', filename='pictures/PiSight.png') }}" border="0" height="170vw" id="execute_description">
+        <input type="image" src ="{{ url_for('static', filename='pictures/book_icon.png') }}" border="0" height="170vw" id="execute_text">
+        <input type="image" src ="{{ url_for('static', filename='pictures/car_icon.png') }}" border="0" height="170vw" id="execute_car"><br>
+        <textarea id="text" size="100%"  name="inputBox" placeholder="Result Will Go Here"></textarea>
+    </form>
+    </div>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-2.1.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>
