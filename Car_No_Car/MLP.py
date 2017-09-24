@@ -164,10 +164,9 @@ class Image_MLP(object):
             result = self.model.predict(test_data)
             predicted_class = np.argmax(result,
                                         axis=1)
-            result_string = ""
+            result_string = "There are no cars. It is safe to cross the street"
             for i in range(len(filenames)):
                 classify = ""
-                if predicted_class[i] == 0:
-                    classify = "NO "
-                result_string += classify + "car" + "\n"
+                if predicted_class[i] == 1:
+                    return "CAR APPROACHING!!"
             return result_string
